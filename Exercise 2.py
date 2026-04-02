@@ -28,3 +28,13 @@ def solve_quadratic(a, b, c):
 
     else:
         return "No real roots"
+    
+#...........Test Function..........  
+
+test_values = [(1,-3,2),
+               (1,2,1),
+               (0,2,-4)]
+for i in range(len(test_values)):
+    result = solve_quadratic(*test_values[i])
+    print(f"input:{test_values[i]} = output : {result}")
+
