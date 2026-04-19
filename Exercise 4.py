@@ -21,7 +21,6 @@ def find_square_root_newton(number, precision=0.00001):
 
     while True:
         root = 0.5 * (x + number / x)
-
         # Stop when difference is very small
         if abs(root - x) < precision:
             return root
@@ -30,6 +29,8 @@ def find_square_root_newton(number, precision=0.00001):
 
 
 # ----------- Testing the functions -----------
+
+
 
 
 test_values = [4, 9, 16, 2, 0, -1]
