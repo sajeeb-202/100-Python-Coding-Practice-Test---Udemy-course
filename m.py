@@ -1,1 +1,0 @@
-CLI shopping list app with add/remove/clear features
